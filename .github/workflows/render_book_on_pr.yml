@@ -61,8 +61,8 @@ jobs:
       #   run: |
       #     Rscript -e 'renv::snapshot()'            
 
-      # - name: Render the book
-      #   run: Rscript -e 'babelquarto::render_book()'
+      - name: Render the book
+        run: Rscript -e 'babelquarto::render_book()'
 
       # - name: Run basic functions
       #   run: Rscript -e 'renv::activate()'      
